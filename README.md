@@ -19,6 +19,13 @@
 - `predicted/*.tiff` - Predicted outputs of the model from `predict_all.ipynb`. Same size and prediction resolution as input tiles from `RGB_DSM`.
 - `surface\ area` - Work done pertaining to calculating the surface area of segmented masks based on area and slope from the DSM.
 
+# Data
+
+## Train, validate, test
+- set1
+- set2
+- set3
+
 # Conda environment
 1. Create the environment: `conda env create -f environment.yml`
 2. Activate the environment: `conda activate solar-segmentation`
